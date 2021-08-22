@@ -1,0 +1,80 @@
+/*Media Query*/
+
+/*NoteBook Device*/
+@media (min-width: 768px) and (max-width: 990px){
+ 
+ .banner .col-md-4 {padding: 0px;}
+.banner h2 {font-size: 15px;}
+.element.style {font-size: 15px;}
+.social-media ul{padding: 0px;}
+.social-media li {display: inline;margin: 0px 16px;}
+.efect .city-pic {padding: 0px;}
+.list-section p {padding: 12px 0px;}
+.list-section img {width: 80%;padding-top: 44px;}
+.picture {padding: 40px 0px;}
+.comm {padding: 0px;}
+.awesome {padding: 50px 0px;}
+.product .col-md-4 {padding: 0px 15px;}
+.product h1 {padding: 28px 0px;}
+
+}
+
+/*Tablet Device*/
+@media (min-width: 575px) and (max-width: 768px){
+
+header img {width: 21%;margin-left: 41px;}
+.banner .col-md-4 {padding: 20px 21%;}
+.social-media ul{padding: 0px;}
+.efect button {float: left;margin: 20px 10px;}
+.list-section {padding: 20px 0px;}
+.comment img{width: 30%;} 
+.testimonial {margin: 0px 100px 20px 23px;}
+.design button {display: block;margin: 30px auto;}
+.form-right textarea {border: 1px solid #d6d6d6;}
+.footer ul {margin: 0px;}
+
+}
+
+/*Mobile Device*/
+@media (min-width: 320px) and (max-width: 575px){
+
+
+header img {width: 21%;margin-left: 16px;}
+.banner .logo {width: 127px;display: block;margin: 0px auto;}
+
+.banner h2 {font-size: 19px;text-align: center;}
+.banner p{text-align: center;padding: 0px 20px;}
+.banner button {display: block;margin: 0px auto;}
+.element.style {margin: 23px 0px;font-size: 12px;}
+.banner .col-md-4 {padding: 32px 50px;}
+.social-media i {font-size: 15px;margin: 0px -9px;}
+.efect button {padding: 25px 12px;float: left;margin: 20px 10px;}
+.efect {padding: 20px 0px;}
+.list-section {padding: 30px 0px;}
+.picture {padding: 30px 0px;}
+.standard {padding: 10px 51px 2px;}
+.awesome {padding: 40px 0px;}
+.awesome h1 {margin-bottom:5px;}
+.product h1 {padding: 15px 0px;}
+.product .col-md-4 {padding: 10px 40px;}
+.pricing {padding: 10px 0px;}
+.basic {margin-top: 10px;}
+.product {padding-bottom: 25px;}
+.pricing h1 {color: #ff8b38;padding-top: 30px;}
+.pricing .col-md-4 {padding: 15px 20px;}
+.customer {padding-top: 50px;}
+.customer h1 {font-size: 16px; font-weight: 900;}
+.comment {padding: 26px 40px;}
+.comment img{width: 32%;}
+.design h1 {font-size: 27px;padding-top: 50px;}
+.design .axure { background: #ff9b51;  }
+.design button {display: block;margin: 24px auto;}
+.contact h1 {font-size: 35px;padding-top: 35px;}
+.contact p {padding-bottom: 26px;}
+.form-right textarea {border: 1px solid #d6d6d6;  }
+.footer ul {margin: 0px;padding: 0px;}
+.footer li {margin: 0px 11px;   }
+.footer i { padding: 20px 0px;}
+
+
+}
